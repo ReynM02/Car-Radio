@@ -4,7 +4,7 @@ KiCad 10 hardware project.
 
 ## Layout
 
-Create the KiCad project in this folder (File > New Project, uncheck "Create a new folder for the project") so `Car Radio.kicad_pro`, `.kicad_sch` and `.kicad_pcb` sit at the repo root.
+Create the KiCad project in this folder (File > New Project, uncheck "Create a new folder for the project") so `car-radio.kicad_pro`, `.kicad_sch` and `.kicad_pcb` sit at the repo root.
 
 ## Version control notes
 
