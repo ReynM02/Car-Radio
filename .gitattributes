@@ -1,0 +1,22 @@
+# KiCad writes LF on every platform. Pin it so core.autocrlf=true on Windows
+# doesn't rewrite files that KiCad will immediately re-save as LF.
+* text=auto
+
+*.kicad_pro   text eol=lf
+*.kicad_sch   text eol=lf
+*.kicad_pcb   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*.kicad_dru   text eol=lf
+*.kicad_wks   text eol=lf
+sym-lib-table text eol=lf
+fp-lib-table  text eol=lf
+
+# Keep diffs and line-ending conversion away from binary/large assets
+*.step  binary
+*.stp   binary
+*.wrl   binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+*.zip   binary

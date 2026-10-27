@@ -1,0 +1,49 @@
+# KiCad 10 project .gitignore
+# Track: *.kicad_pro, *.kicad_sch, *.kicad_pcb, *.kicad_sym, *.kicad_mod,
+#        sym-lib-table, fp-lib-table, and project-local libraries.
+
+# Local user state (window layout, active layers, etc.) - not shared
+*.kicad_prl
+
+# Local history (KiCad keeps its own nested git repo here)
+.history/
+
+# Backups and autosaves
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+*-save.pro
+_autosave-*
+\#auto_saved_files#
+
+# Lock files and temp files
+*.lck
+~*
+*.tmp
+*.swp
+
+# Library caches and rescue output (legacy)
+fp-info-cache
+*-cache.lib
+*-cache.dcm
+*-rescue.lib
+*-rescue.dcm
+
+# Netlists generated for legacy tools
+*.net
+
+# Generated output (uncomment fab/ if you would rather not commit Gerbers)
+build/
+# fab/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
